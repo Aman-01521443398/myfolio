@@ -1,0 +1,50 @@
+*{margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{font-family: 'Open Sans', sans-serif;}
+ul{ list-style: none;}
+a{text-decoration: none;}
+.container{
+    width: 1170px;
+    margin: auto;}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;}
+
+    nav .logo{
+        width:15%;
+        align-self: center;
+        color: yellow;
+        font-weight: 800;
+    }
+    nav .menu{
+        width: 85%;
+        text-align: center;
+    }
+    nav { background-color: #02918c;}
+    nav .menu ul li{ 
+        display: inline-block;
+    }
+    nav .menu ul li a{ color:white;
+    font-weight: 800;
+font-size: 12px;
+text-transform: uppercase;
+padding: 26px 20px;
+display: block;
+margin: 5px 0;
+border-radius: 5px;
+transition: .3s;}
+
+nav .menu ul li:hover a{
+    background-color: #ffffff9b;
+}
+
+.submenu { 
+    position: absolute;
+}
+
+
+
+
